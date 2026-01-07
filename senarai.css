@@ -1,0 +1,64 @@
+progress {
+    width: 300px;
+    height: 22px;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+progress::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 0;
+}
+
+progress::-webkit-progress-value {
+    background-color: limegreen;
+    border-radius: 0;
+}
+
+/* ===== TABLE ===== */
+table {
+    font-family: verdana;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    clear: left;
+    box-shadow: 15px 15px 6px rgba(78, 72, 72, 0.5);
+}
+
+table.maklumat {
+    width: 400px;
+}
+
+caption {
+    font-size: 16px;
+    font-weight: bold;
+    color: #001364;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+td, th {
+    padding: 8px;
+    border: 2px solid black;
+}
+
+td.nama {
+    width: 150px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #fffac4;
+}
+
+tr:nth-child(even) {
+    background-color: #e2c987;
+}
+
+th {
+    font-weight: bold;
+    color: white;
+    background-color: #694500;
+}
